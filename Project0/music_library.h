@@ -1,0 +1,13 @@
+struct song_node *playlist[26];
+void initialize_playlist();
+int letter_index(char letter);
+char first_letter(char * string);
+void add_song(char *person, char *song);
+struct song_node * search_song(char * song, char * person);
+struct song_node * search_artist(char * person);
+void print_letter(char letter);
+void print_artist(char * person);
+void print_all();
+void shuffle();
+void delete_song(char * person, char * song);
+void delete_all();
